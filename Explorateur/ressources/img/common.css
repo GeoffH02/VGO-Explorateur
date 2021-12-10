@@ -1,0 +1,607 @@
+body {
+    background-color: #F8F9FA !important;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+
+/* .VGOfont {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+} */
+
+.displayBlock {
+    display: block !important;
+    width: 100%;
+}
+
+.displayInline {
+    display: inline-block !important;
+}
+
+.form-signin {
+    width: 30%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.boxcolor:focus,
+input:focus,
+input[type]:focus,
+.uneditable-input:focus {
+    /*Text box color */
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+    outline: 0 none;
+    border-color: #644696;
+}
+
+.roundedCorners {
+    border-radius: 25px 25px;
+}
+
+.textAllignCenter {
+    text-align: center;
+}
+
+.textAllignRight {
+    text-align: right;
+}
+
+.textAllignLeft {
+    text-align: left;
+}
+
+.BtnroundedStyle {
+    display: block !important;
+    margin: 0 auto;
+    border-radius: 25px 25px;
+    background-color: #d9d9d9;
+    border-color: #644696;
+    color: black;
+}
+
+.BtnroundedStyle:hover {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+    outline: 0 none;
+    border-color: #644696;
+    background-color: #644696;
+    color: white;
+}
+
+.BtnroundedStyle:focus-visible,
+.BtnroundedStyle:focus {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+}
+
+.BtnCancel {
+    display: inline-block !important;
+    margin: 0 auto;
+    border-radius: 25px 25px;
+    background-color: #d9d9d9;
+    border-color: #644696;
+    color: #422ea8;
+    font-weight: 700;
+    margin-left: 2%;
+    min-width: 9%;
+}
+
+.BtnCancel:hover {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+    outline: 0 none;
+    border-color: #644696;
+    background-color: #644696;
+    color: white;
+}
+
+.BtnCancel:focus-visible,
+.BtnCancel:focus {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+}
+
+.BtnValidate {
+    display: inline-block !important;
+    margin: 0 auto;
+    border-radius: 25px 25px;
+    background-color: #422ea8;
+    color: white;
+    font-weight: 700;
+    margin-left: 2%;
+    min-width: 9%;
+}
+
+.BtnValidate:hover {
+    outline: 0 none;
+    background-color: white;
+    color: #422ea8;
+}
+
+.BtnValidate:focus-visible,
+.BtnValidate:focus {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+}
+
+.BtnGoogle {
+    border-color: unset !important;
+    background-color: #dd4b39;
+}
+
+.BtnGoogle:focus-visible,
+.BtnGoogle:hover,
+.BtnGoogle:focus,
+.BtnGoogle:active {
+    border-color: #644696 !important;
+    outline: 0 none;
+    background-color: #dd4b39 !important;
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696 !important;
+}
+
+.BtnConfirm {
+    display: inline-block !important;
+    margin: 0 auto;
+    background-color: #422ea8;
+    color: white;
+    font-weight: 700;
+    min-width: 300px;
+}
+
+.BtnConfirm:hover {
+    outline: 0 none;
+    background-color: white;
+    color: #422ea8;
+}
+
+.BtnConfirm:focus-visible,
+.BtnConfirm:focus {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+    outline: 0 none;
+}
+
+.BtnObjectives {
+    display: inline-block !important;
+    margin: 0 auto;
+    border-radius: 25px 25px;
+    background-color: #422ea8;
+    color: white;
+    font-weight: 700;
+    margin-left: 2%;
+    min-width: 15% !important;
+    max-width: 15% !important;
+}
+
+.BtnObjectives:hover,
+.BtnObjectives:focus,
+.BtnObjectives:focus-visible {
+    outline: 0 none;
+    background-color: #8c62d1;
+    color: white;
+}
+
+.BtnObjectivesCancel {
+    display: inline-block !important;
+    margin: 0 auto;
+    border-radius: 25px 25px;
+    background-color: #422ea8;
+    color: white;
+    font-weight: 700;
+    margin-left: 2%;
+    min-width: 15% !important;
+    max-width: 15% !important;
+}
+
+.BtnObjectivesCancel:hover,
+.BtnObjectivesCancel:focus,
+.BtnObjectivesCancel:focus-visible {
+    outline: 0 none;
+    background-color: #e6e0e8;
+    color: #422ea8;
+    box-shadow: none !important;
+}
+
+.BtnroundedObjectivesCards {
+    display: block !important;
+    margin: 0 auto;
+    background-color: white;
+    border-color: #422ea8;
+    color: #422ea8;
+    transition: all 250ms ease-out;
+    margin-bottom: 5%;
+    margin-top: 1em;
+    max-width: 450px !important;
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+}
+
+.BtnroundedObjectivesCards:hover {
+    box-shadow: 0 1px 1px #8c62d1 inset, 0 0 8px #8c62d1;
+    outline: 0 none;
+    border-color: #8c62d1;
+    background-color: #8c62d1;
+    color: white;
+}
+
+.BtnroundedObjectivesCards:focus-visible,
+.BtnroundedObjectivesCards:focus {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+}
+
+.btnObjectiveSpecial {
+    margin: 0 auto;
+    background-color: white;
+    border-color: #422ea8;
+    color: #422ea8;
+    transition: all 250ms ease-out;
+    margin-bottom: 5%;
+    margin-top: 1em;
+    max-width: 450px !important;
+    height: 20%;
+    width: 30%;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.btnObjectiveSpecial:hover {
+    box-shadow: 0 1px 1px #8c62d1 inset, 0 0 8px #8c62d1;
+    outline: 0 none;
+    border-color: #8c62d1;
+    background-color: #8c62d1;
+    color: white;
+}
+
+.btnObjectiveSpecial:focus-visible,
+.btnObjectiveSpecial:focus {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+}
+
+.Btnsubscribe {
+    display: inline-block !important;
+    margin: 0 auto;
+    background-color: #444;
+    color: white;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
+.Btnsubscribe:hover,
+.Btnsubscribe:focus,
+.Btnsubscribe:focus-visible {
+    outline: 0 none;
+    background-color: #6A6969;
+    color: white;
+    box-shadow: none !important;
+}
+
+.BTNHIW {
+    background-color: white;
+    border-color: #422ea8;
+    color: #422ea8;
+    transition: all 250ms ease-out;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    max-width: 450px !important;
+    height: 50px;
+    font-size: 23px;
+}
+
+.BTNHIW:hover {
+    box-shadow: 0 1px 1px #8c62d1 inset, 0 0 8px #8c62d1;
+    outline: 0 none;
+    border-color: #8c62d1;
+    background-color: #8c62d1;
+    color: white;
+}
+
+.BTNHIW:focus-visible,
+.BTNHIW:focus {
+    box-shadow: 0 1px 1px #644696 inset, 0 0 8px #644696;
+}
+
+.dropDownOptions {
+    color: rgba(0, 0, 0, .5) !important;
+    font-size: 1.5rem;
+    background-color: #d9d9d9;
+}
+
+.dropDownOptionsMenu:hover {
+    color: #644696 !important;
+    background-color: #d9d9d9;
+}
+
+.blackColor {
+    color: black;
+}
+
+.textGreyColor {
+    color: #8A8988;
+}
+
+.VirgoColor {
+    color: #644696 !important;
+}
+
+.VirgoColorDeviant {
+    color: #8c62d1;
+}
+
+.virgoPurpleNuanced {
+    color: #422ea8 !important;
+}
+
+.textWhiteColor {
+    color: white !important;
+}
+
+.goldColor {
+    background-color: gold !important;
+    color: white !important;
+}
+
+.blackNuanced {
+    color: #223b55 !important;
+}
+
+.silvercolor {
+    color: white !important;
+    background-color: #C0C0C0 !important;
+}
+
+.bronzeColor {
+    color: white !important;
+    background-color: #CD7F32 !important;
+}
+
+.bacckgroundGreySemi {
+    background-color: #d4d1d1 !important;
+}
+
+.backgroundWhite {
+    background-color: #ebf1f5 !important;
+}
+
+.backgroundImage {
+    background-image: linear-gradient(to right, #422ea8 0%, #644696 100%);
+}
+
+
+.color-up {
+    color: #16c784 !important;
+}
+
+.pclassmargin {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.marginFooter {
+    margin-top: 1em !important;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.circle {
+    height: 5em;
+    width: 5em;
+    background-color: #dcdbdb;
+    border-radius: 50%;
+    display: inline-block !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.textRightCircle {
+    color: #644696;
+    display: inline-block !important;
+    background-color: #dcdbdb;
+    margin: 0 -4%;
+    width: 130px;
+    text-align: center;
+}
+
+.seperationBar {
+    background-color: #ebf1f5;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 0.12em !important;
+    opacity: 100% !important;
+}
+
+.navBarFixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 4em;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.navBarElements {
+    font-size: 1.3em;
+    outline: 0;
+    transition: all 0.5s;
+}
+
+.navbar {
+    position: fixed;
+    background-image: linear-gradient(to right, #422ea8 0%, #644696 100%);
+}
+
+.navBarElementsChanges {
+    color: #644696;
+}
+
+.navBarElementsChanges:hover {
+    color: #8c62d1 !important;
+}
+
+.navBarElementsMargin {
+    margin-top: -0.5em !important;
+}
+
+.marginauto {
+    margin: 0 auto !important;
+}
+
+.minheight {
+    min-height: auto !important;
+}
+
+.width100 {
+    width: 100% !important;
+}
+
+.maxwidht100 {
+    max-width: 100% !important;
+}
+
+.width6em {
+    width: 8em !important;
+}
+
+.marginBetweenText {
+    margin-top: 2em;
+}
+
+.footerAttributes {
+    background-image: linear-gradient(to right, #422ea8 0%, #644696 100%);
+}
+
+.margeNewsLettersBox {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.socialnetworkAttributesFooter {
+    color: #644696;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin-right: 5px;
+    padding: 0.3em 0.2em;
+    margin-left: 5px;
+    transition: all 500ms ease-out;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 7px;
+}
+
+.footerText {
+    margin-bottom: 0.5em;
+}
+
+.footerSizeTxt {
+    font-size: 1.2em !important;
+}
+
+.footerAnimation {
+    visibility: visible;
+    animation-name: fadeInUp;
+    margin-top: 1.2em !important;
+}
+
+.socialnetworkAttributesFooter:hover {
+    color: #8c62d1;
+}
+
+.socialA {
+    color: white !important;
+    transition: 250ms ease-in-out;
+}
+
+.socialA:hover {
+    text-decoration: unset !important;
+    color: #8c62d1 !important;
+}
+
+.position-relativ {
+    position: fixed !important;
+    background-color: white !important;
+    color: #422ea8 !important;
+    text-align: center !important;
+    z-index: 10 !important;
+    top: 0;
+    right: 0;
+}
+
+.errormsg {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.divToast {
+    background-color: white;
+    color: red;
+}
+
+.vertical-allign-mid {
+    vertical-align: middle !important;
+}
+
+.vertical-allign-top {
+    vertical-align: top !important;
+}
+
+.topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition: all 250ms ease-out;
+}
+
+.topBtn:hover {
+    background-color: #6A6969;
+}
+
+.flex-allign {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

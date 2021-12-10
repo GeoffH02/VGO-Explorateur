@@ -1,0 +1,16 @@
+beacon-height
+timestamp
+weight
+mined-by
+beacon-reward
+difficulty
+total-difficulty
+size
+confirmation
+part-of-main
+dag
+fee-burnt
+hash
+parent-beacon
+parent-hash
+

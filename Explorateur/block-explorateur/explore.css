@@ -1,0 +1,45 @@
+:root {}
+
+.blockNmb {
+    color: rgb(94, 94, 94);
+    font-size: 12px;
+    text-align: center;
+}
+
+.separationHR {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    opacity: .75;
+    border: 0;
+    border-top: 1px solid #e7eaf3;
+}
+
+#col-infos {
+    padding: 1%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.displaySet {
+    display: flex;
+    transition: all 250ms;
+}
+
+.displayUnset {
+    display: none;
+    transition: all 250ms;
+}
+
+.btn {
+    transition: all 250ms;
+}
+
+.floatleft {
+    float: left !important;
+}
+
+.floatright {
+    float: right !important;
+}

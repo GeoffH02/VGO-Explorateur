@@ -1,0 +1,17 @@
+.adressMain {
+    color: #8b8b8b;
+}
+
+.tdAdress {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px;
+    display: inline-block;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+.methodGet {
+    background-color: rgba(52, 152, 219, .1);
+    border-radius: 0.35rem!important;
+}
