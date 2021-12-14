@@ -46,157 +46,184 @@
     <main>
         <div class="row mt-4">
             <div class="col-lg-9 margin-auto">
-                <h3>
+                <span class="setVgoColorPurple d-flex justify-content-center mb-2 fs-2">Virgo Explorer</span>
+                <div class="col-lg-6 margin-auto">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn dropdown-toggle dropdown-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Filters</button>
+                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Beacons\Ect\Ect" placeholder="Beacons\Ect\Ect">
+                        <div class="input-group-append">
+                            <button class="btn searchBtn" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="colorBeacon">
                     Beacons
                     <span class="display-inline blockNmb">#34569456</span>
+                    <hr class="separationHR mt-4">
                 </h3>
                 <!--
                     <button type="submit" onclick="hide()"class="btn btn-outline-primary floatleft"><i class="fas fa-angle-double-left"></i> Next</button>
                     <button type="submit" onclick="hide()"class="btn btn-outline-primary floatright">Last <i class="fas fa-angle-double-right"></i></button>
                 -->
-                <div class="card">
-                    <div class="row mt-1" id="beacon-height">
-                        <div class="col-md-3 display-inline">
-                            <span>Beacon Height:</span>
+                <div class="card mt-4">
+                    <div class="padding-card-elems">
+                        <div class="row mt-1" id="beacon-height">
+                            <div class="col-md-3 display-inline">
+                                <span>Beacon Height:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>44444444</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span>44444444</span>
+                        <div class="row mt-1" id="timestamp">
+                            <div class="col-md-3 display-inline">
+                                <span>TimeStamp:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>44444444</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="timestamp">
-                        <div class="col-md-3 display-inline">
-                            <span>TimeStamp:</span>
+                        <div class="row mt-1" id="weight">
+                            <div class="col-md-3 display-inline">
+                                <span>Weight:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>345</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span>44444444</span>
+                        <div class="row mt-1" id="mined-by">
+                            <div class="col-md-3 display-inline">
+                                <span>Mined by:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span> <a href="#" id="mined">0xac0e15a038eedfc68ba3c35c73fed5be4a07afb5</a> in 3 secs</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="weight">
-                        <div class="col-md-3 display-inline">
-                            <span>Weight:</span>
+                        <div class="row mt-1" id="beacon-reward">
+                            <div class="col-md-3 display-inline">
+                                <span>Beacon Reward:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>0.5467899999934 VGO</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span>345</span>
+                        <div class="row mt-1" id="difficulty">
+                            <div class="col-md-3 display-inline">
+                                <span>Difficulty:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>1</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="mined-by">
-                        <div class="col-md-3 display-inline">
-                            <span>Mined by:</span>
+                        <div class="row mt-1" id="total-difficulty">
+                            <div class="col-md-3 display-inline">
+                                <span>Total Difficulty:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>15</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span> <a href="#">0xac0e15a038eedfc68ba3c35c73fed5be4a07afb5</a> in 3 secs</span>
+                        <div class="row mt-1" id="size">
+                            <div class="col-md-3 display-inline">
+                                <span>Size:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>156,412 bytes</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="beacon-reward">
-                        <div class="col-md-3 display-inline">
-                            <span>Beacon Reward:</span>
+                        <div class="row mt-1" id="confirmation">
+                            <div class="col-md-3 display-inline">
+                                <span>Confirmation:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>10</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span>0.5467899999934 VGO</span>
+                        <div class="row mt-1" id="part-of-main">
+                            <div class="col-md-3 display-inline">
+                                <span>Is part of main chain:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>Yes</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="difficulty">
-                        <div class="col-md-3 display-inline">
-                            <span>Difficulty:</span>
+                        <div class="row mt-1" id="dag">
+                            <div class="col-md-3 display-inline">
+                                <span>DAG Height:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>123744</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span>1</span>
+                        <div class="row mt-1" id="fee-burnt">
+                            <div class="col-md-3 display-inline">
+                                <span>Fee Burnt:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>0.0001 VGO</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="total-difficulty">
-                        <div class="col-md-3 display-inline">
-                            <span>Total Difficulty:</span>
+                        <div class="row mt-1" id="hash">
+                            <div class="col-md-3 display-inline">
+                                <span>Hash:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span>15</span>
+                        <div class="row mt-1" id="parent-beacon">
+                            <div class="col-md-3 display-inline">
+                                <span>Parent Beacon Hash:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <span>0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</span>
+                            </div>
+                            <hr class="separationHR">
                         </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="size">
-                        <div class="col-md-3 display-inline">
-                            <span>Size:</span>
+                        <div class="row mt-1" id="parent-hash">
+                            <div class="col-md-3 display-inline">
+                                <span>Parent Hash:</span>
+                            </div>
+                            <div class="col-md-9 display-inline">
+                                <a href="#" id="parent1">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
+                                <br>
+                                <a class="mt-2" href="#" id="parent2">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
+                            </div>
                         </div>
-                        <div class="col-md-9 display-inline">
-                            <span>156,412 bytes</span>
-                        </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="confirmation">
-                        <div class="col-md-3 display-inline">
-                            <span>Confirmation:</span>
-                        </div>
-                        <div class="col-md-9 display-inline">
-                            <span>10</span>
-                        </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="part-of-main">
-                        <div class="col-md-3 display-inline">
-                            <span>Is part of main chain:</span>
-                        </div>
-                        <div class="col-md-9 display-inline">
-                            <span>Yes</span>
-                        </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="dag">
-                        <div class="col-md-3 display-inline">
-                            <span>DAG Height:</span>
-                        </div>
-                        <div class="col-md-9 display-inline">
-                            <span>123744</span>
-                        </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="fee-burnt">
-                        <div class="col-md-3 display-inline">
-                            <span>Fee Burnt:</span>
-                        </div>
-                        <div class="col-md-9 display-inline">
-                            <span>0.0001 VGO</span>
-                        </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="hash">
-                        <div class="col-md-3 display-inline">
-                            <span>Hash:</span>
-                        </div>
-                        <div class="col-md-9 display-inline">
-                            <span>0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</span>
-                        </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="parent-beacon">
-                        <div class="col-md-3 display-inline">
-                            <span>Parent Beacon Hash:</span>
-                        </div>
-                        <div class="col-md-9 display-inline">
-                            <span>0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</span>
-                        </div>
-                        <hr class="separationHR">
-                    </div>
-                    <div class="row mt-1" id="parent-hash">
-                        <div class="col-md-3 display-inline">
-                            <span>Parent Hash:</span>
-                        </div>
-                        <div class="col-md-9 display-inline">
-                            <a href="#">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
-                            <br>
-                            <a class="mt-2" href="#">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
-                        </div>
-                    </div>
-                    <!-- <div class="card-body">
+                        <!-- <div class="card-body">
                         <a href="#" class="card-link">Card link</a>
                         <a href="#" class="card-link">Another link</a>
                     </div>
                     -->
-                    <button type="submit" onclick="hide()" class="btn btn-outline-primary" id="btn-hide"><i class="fas fa-angle-double-up" id="arrow"></i> Hide</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-lg-3 margin-auto">
+                    <button type="submit" onclick="hide()" class="btn btn-outline-primary w-100 mb-4 mt-2" id="btn-hide"><i class="fas fa-angle-double-up" id="arrow"></i> Hide</button>
                 </div>
             </div>
         </div>

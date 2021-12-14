@@ -1,8 +1,6 @@
-:root {}
-
 .blockNmb {
-    color: rgb(94, 94, 94);
-    font-size: 12px;
+    color: #ffffff;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -11,7 +9,7 @@
     margin-bottom: 0.75rem;
     opacity: .75;
     border: 0;
-    border-top: 1px solid #e7eaf3;
+    border-top: 1px solid #c2c2c3;
 }
 
 #col-infos {
@@ -42,4 +40,18 @@ a {
 
 .floatright {
     float: right !important;
+}
+
+.colorBeacon {
+    color: var(--vgo-color-light);
+}
+
+#mined,
+#parent1,
+#parent2 {
+    color: var(--vgo-color-light) !important;
+}
+
+.card {
+    border-radius: 25px;
 }
