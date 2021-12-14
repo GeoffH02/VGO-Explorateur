@@ -44,15 +44,41 @@
     </nav>
 
     <main>
-        <div class="row mt-4">
+
+        <div class="row row-search mt-4">
+            <div class="col-lg-9">
+                <span class="setVgoColorPurple d-flex justify-content-center mb-2 fs-2">Virgo Explorer</span>
+                <div class="col-lg-6 margin-auto">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn dropdown-toggle dropdown-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Filters</button>
+                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Beacons\Ect\Ect" placeholder="Beacons\Ect\Ect">
+                        <div class="input-group-append">
+                            <button class="btn searchBtn" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
             <div class="col-lg-9 margin-auto">
-                <h3 class="display-inline">Adress </h3>
+                <h3 class="display-inline setVgoColorPurple">Adress </h3>
                 <span class="display-inline adressMain">0xD9f1822A19125B4199F138dcec6D7e8438E40205</span>
+                <hr class="separationHR mt-4">
             </div>
         </div>
         <div class="row mt-4 dispayFlex">
             <div class="col-lg-5">
-                <div class="card">
+                <div class="card border-radius-10px mt-4">
                     <div class="row mt-1">
                         <div class="col-md-12 display-inline">
                             <span>Overview:</span>
@@ -68,35 +94,50 @@
                         </div>
                         <hr class="separationHR">
                     </div>
-                    <div class="row mt-1">
+                    <div class="row mt-1 mb-3">
                         <div class="col-md-6 display-inline">
                             <span>VGO Value:</span>
                         </div>
                         <div class="col-md-6 display-inline">
                             <span>2 VGO ($0.54 / VGO)</span>
                         </div>
-                        <hr class="separationHR">
                     </div>
                 </div>
             </div>
             <div class="col-lg-5">
-                <div class="card">
+                <div class="card border-radius-10px mt-4">
                     <div class="row mt-1">
                         <div class="col-md-6 display-inline">
-                            <span>More Infos:</span>
+                            <span>More Infos</span>
+                        </div>
+                        <hr class="separationHR">
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col-md-6 display-inline">
+                            <span>Plus d'infos:</span>
                         </div>
                         <div class="col-md-6 display-inline">
                             <span>Salut les pds</span>
                         </div>
                         <hr class="separationHR">
                     </div>
+                    <div class="row mt-1 mb-3">
+                        <div class="col-md-6 display-inline">
+                            <span>Et ici:</span>
+                        </div>
+                        <div class="col-md-6 display-inline">
+                            <span>Salut les homos</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row mt-5 dispayFlex">
                 <div class="card col-lg-10">
-                    <div class="bd-example">
-                        <table class="table table-striped">
-                            <thead>
+                    <span class="setVgoColorPurple">Transactions</span>
+                    <hr class="hrBordrered">
+                    <div class="overflow-auto">
+                        <table class="table">
+                            <thead class="backgroundTable">
                                 <tr>
                                     <th scope="col">Txn Hash</th>
                                     <th scope="col">Method</th>
@@ -111,21 +152,12 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>
-                                        <a href="#" class="tdAdress">0x1592bc32b74f9cd129989329b38af75875137ad769e88a5a6751e8250ccfdb10</a>
-                                    </td>
-                                    <td>
-                                        <span class="methodGet">Transfer</span>
-                                    </td>
+                                    <td><a href="#" class="tdAdress setVgoColorPurple">0x1592bc32b74f9cd129989329b38af75875137ad769e88a5a6751e8250ccfdb10</a></td>
+                                    <td><span class="methodGet">Transfer</span></td>
                                     <td>1333324</td>
                                     <td>10 mins ago</td>
-                                    <td>
-                                        <a href="#" class="tdAdress">0x1592bc32b74f9cd129989329b38af75875137ad769e88a5a6751e8250ccfdb10</a>
-                                    </td>
-                                    <td>
-                                        <a href="#" class="tdAdress">0x1592bc32b74f9cd129989329b38af75875137ad769e88a5a6751e8250ccfdb10</a>
-                                    </td>
+                                    <td><a href="#" class="tdAdress setVgoColorPurple">0x1592bc32b74f9cd129989329b38af75875137ad769e88a5a6751e8250ccfdb10</a></td>
+                                    <td><a href="#" class="tdAdress setVgoColorPurple">0x1592bc32b74f9cd129989329b38af75875137ad769e88a5a6751e8250ccfdb10</a></td>
                                     <td>0 VGO</td>
                                     <td>0.000105215</td>
                                 </tr>

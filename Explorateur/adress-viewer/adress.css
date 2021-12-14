@@ -9,9 +9,13 @@
     display: inline-block;
     vertical-align: bottom;
     white-space: nowrap;
+    text-decoration: none !important;
 }
 
 .methodGet {
-    background-color: rgba(52, 152, 219, .1);
+    background-color: var(--vgo-color-light);
     border-radius: 0.35rem!important;
+    padding: 0.2rem 0.5rem;
+    min-width: 68px;
+    color: white;
 }
