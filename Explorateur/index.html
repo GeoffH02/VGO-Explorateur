@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg" aria-label="Eighth navbar example">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="../ressources/img/VirgoFlatWhite.png" alt="Virgo" id="VirgoImgNav" width="150">
+                <img src="../Explorateur/ressources/img/VirgoFlatWhite.png" alt="Virgo" id="VirgoImgNav" width="150">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
             <p class="navbar-toggler-icon"></p>
@@ -41,96 +41,98 @@
         </div>
     </nav>
 
-    <div class="row row-search">
-        <div class="col-lg-6">
-            <div class="vgoExplorer">
-                <p>Virgo exploration</p>
-            </div>
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <button class="btn dropdown-toggle dropdown-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filters</button>
-                    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div role="separator" class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+    <div class="row row-search mt-4">
+        <div class="col-lg-9">
+            <span class="setVgoColorPurple d-flex justify-content-center mb-2 fs-2">Virgo Explorer</span>
+            <div class="col-lg-6 margin-auto">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button class="btn dropdown-toggle dropdown-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Filters</button>
+                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
                     </div>
-                </div>
-                <input type="text" class="form-control" aria-label="Beacons\Ect\Ect" placeholder="Beacons\Ect\Ect">
-                <div class="input-group-append">
-                    <button class="btn searchBtn" type="button">Search</button>
+                    <input type="text" class="form-control" aria-label="Beacons\Ect\Ect" placeholder="Beacons\Ect\Ect">
+                    <div class="input-group-append">
+                        <button class="btn searchBtn" type="button"><i class="fas fa-search"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row margin-5em">
-        <div class="col-lg-12 allign-center">
-            <div class="col-lg-3 display-inline">
-                <p class="allign-left ">Diff</p>
-                <p class="allign-right">XXXXXXXXX</p>
-                <hr>
-                <p class="allign-left ">Hashrate</p>
-                <p class="allign-right">XXXXXXXXX</p>
+    <div class="row margin-5em d-flex justify-content-center align-items-center">
+        <div class="col-lg-12 allign-center rounded-pill ">
+            <div class="col-lg-2 display-inline ">
+                <p class="text-center fs-5 ">Difficulty</p>
+                <p class="text-center setVgoColorPurple fs-5">XXXXXXXXX</p>
             </div>
-            <div class="col-lg-3 display-inline">
-                <p class="allign-left ">Latest Beacon</p>
-                <p class="allign-right">XXXXXXXXX</p>
-                <hr>
-                <p class="allign-left ">Transaction</p>
-                <p class="allign-right">XXXXXXXXX</p>
+            <div class="col-lg-2 display-inline ">
+                <p class="text-center fs-5">Latest Beacons</p>
+                <p class="text-center setVgoColorPurple fs-5">XXXXXXXXX</p>
+            </div>
+            <div class="col-lg-2 display-inline ">
+                <p class="text-center fs-5">Latest Transactions</p>
+                <p class="text-center setVgoColorPurple fs-5">XXXXXXXXX</p>
+            </div>
+            <div class="col-lg-2 display-inline ">
+                <p class="text-center fs-5">Hasrate</p>
+                <p class="text-center setVgoColorPurple fs-5">XXXXXXXXX</p>
             </div>
         </div>
     </div>
 
-    <div class="row margin-5em">
-        <div class="col-lg-6">
-            <p class="allign-center">Latest Beacons</p>
-            <div class="allign-center">
-                <div class="col-lg-3 display-inline allign-center allign-block">
-                    <a href="#" class="display-inline validedBy">11111111</a>
+    <div class="row margin-5em d-flex justify-content-center align-items-center">
+        <div class="col-lg-5 border-radius-25px">
+            <span>Latest Beacons</span>
+            <div class="allign-center ">
+                <div class="col-lg-3 display-inline allign-center allign-block ">
+                    <a href="# " class="display-inline validedBy ">11111111</a>
                     <p>2.3secs</p>
                 </div>
-                <div class="col-lg-3 display-inline allign-center">
-                    <div class="display-inline">
-                        <p class="display-inline">Validate by :</p>
-                        <a href="#" class="display-inline validedBy">NodeReal</a>
+                <div class="col-lg-3 display-inline allign-center ">
+                    <div class="display-inline ">
+                        <p class="display-inline ">Validate by :</p>
+                        <a href="# " class="display-inline validedBy ">NodeReal</a>
                     </div>
                     <p>665 txn in 3 Secs</p>
                 </div>
-                <div class="col-lg-3 display-inline allign-center allignAmmountTransac">
-                    <p class="vgoTransactionAmmount">12345VGO</p>
+                <div class="col-lg-3 display-inline allign-center allignAmmountTransac ">
+                    <p class="vgoTransactionAmmount ">12345VGO</p>
                 </div>
                 <hr>
             </div>
-            <div class="col-lg-12 allign-center">
-                <button type="button" class="btn btn-outline-primary simpleButton">View All Beacons</button>
+            <div class="col-lg-12 allign-center ">
+                <button type="button " class="btn btn-outline-primary simpleButton ">View All Beacons</button>
             </div>
         </div>
-        <div class="col-lg-6">
-            <p class="allign-center">Latest Beacons</p>
-            <div class="allign-center">
-                <div class="col-lg-3 display-inline allign-center allign-block">
-                    <a href="#" class="display-inline validedBy">11111111</a>
+        <div class="col-lg-5 border-radius-25px">
+            <p class="allign-center ">Latest Beacons</p>
+            <div class="allign-center ">
+                <div class="col-lg-3 display-inline allign-center allign-block ">
+                    <a href="# " class="display-inline validedBy ">11111111</a>
                     <p>2.3secs</p>
                 </div>
-                <div class="col-lg-3 display-inline allign-center">
-                    <div class="display-inline">
-                        <p class="display-inline">From :</p>
-                        <a href="#" class="display-inline validedBy adressVGO">0xe2d3a739effcd3</a>
+                <div class="col-lg-3 display-inline allign-center ">
+                    <div class="display-inline ">
+                        <p class="display-inline ">From :</p>
+                        <a href="# " class="display-inline validedBy adressVGO ">0xe2d3a739effcd3</a>
                     </div>
                     <div class="display-inline ">
-                        <p class="display-inline">To :</p>
-                        <a href="#" class="display-inline validedBy adressVGO">0xe2d3a739effcd3</a>
+                        <p class="display-inline ">To :</p>
+                        <a href="# " class="display-inline validedBy adressVGO ">0xe2d3a739effcd3</a>
                     </div>
                 </div>
-                <div class="col-lg-3 display-inline allign-center allignAmmountTransac">
-                    <p class="vgoTransactionAmmount">12345VGO</p>
+                <div class="col-lg-3 display-inline allign-center allignAmmountTransac ">
+                    <p class="vgoTransactionAmmount ">12345VGO</p>
                 </div>
                 <hr>
             </div>
-            <div class="col-lg-12 allign-center">
-                <button type="button" class="btn btn-outline-primary simpleButton">View All Beacons</button>
+            <div class="col-lg-12 allign-center ">
+                <button type="button " class="btn btn-outline-primary simpleButton ">View All Beacons</button>
             </div>
         </div>
     </div>

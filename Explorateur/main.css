@@ -1,222 +1,226 @@
-                         :root {
-                            --vgo-color--main: #7700cf !important;
-                            --vgo-color-light: #cd33b4 !important;
-                            --not-black-but-black: #200038 !important;
-                            --gray-color: #9399a0 !important;
-                            --Bg-color-main: #2b2b37 !important;
-                            --radiant-background: linear-gradient(to right, #7700cf 0%, #cd33b4 100%);
-                            --font-nav: 1.2em !important;
-                            --font-familly: 'Oswald', sans-serif;
-                            --color-white: white;
-                            --color-nuanced-white: #ebf1f5;
-                            --color-gray: grey;
-                            --margin-unset: unset;
-                            --margin-auto: 0 auto;
-                            --text-center: center;
-                            --text-right: right;
-                            --text-left: left;
-                        }
-                        
-                        body {
-                            background-color: var(--Bg-color-main) !important;
-                        }
-                        
-                        * {
-                            font-family: var(--font-familly);
-                        }
-                        
-                        .navbar {
-                            background-image: var(--radiant-background);
-                        }
-                        
-                        .navNavigator {
-                            color: var(--color-white);
-                            display: block;
-                            padding: .5rem 1rem;
-                            text-decoration: unset !important;
-                            transition: all 250ms;
-                            font-size: var(--font-nav);
-                        }
-                        
-                        .navNavigator:hover {
-                            color: var(--vgo-color-light);
-                        }
-                        
-                        hr {
-                            opacity: .75;
-                        }
-                        
-                        .navbar-toggler-icon {
-                            background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-                        }
-                        
-                        .navbar-toggler {
-                            color: rgba(255, 255, 255, .5);
-                            border-color: rgba(255, 255, 255, .1);
-                        }
-                        
-                        #VirgoImgNav {
-                            margin-top: 10px;
-                        }
-                        
-                        .row-search {
-                            margin: 3em auto;
-                            text-align: var(--text-center);
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        
-                        .row {
-                            margin: var(--margin-unset);
-                        }
-                        
-                        .margin-auto {
-                            margin: var(--margin-auto);
-                        }
-                        
-                        .dropdown-filter {
-                            background-color: var(--vgo-color-light);
-                            color: white;
-                            transition: all 250ms;
-                        }
-                        
-                        .dropdown-filter:hover,
-                        .dropdown-filter:active,
-                        .dropdown-filter:focus {
-                            outline: 0 none;
-                            color: white;
-                            box-shadow: none !important;
-                        }
-                        
-                        .searchBtn {
-                            background-color: var(--vgo-color-light);
-                            color: var(--color-white);
-                            transition: all 250ms;
-                        }
-                        
-                        .searchBtn:hover,
-                        .searchBtn:active,
-                        .searchBtn:focus {
-                            outline: 0 none;
-                            color: var(--color-white);
-                            box-shadow: none !important;
-                        }
-                        
-                        .simpleButton {
-                            background-color: transparent !important;
-                            color: var(--vgo-color--main) !important;
-                            box-shadow: none !important;
-                            outline: 0 none;
-                            border: 1px solid var(--vgo-color--main) !important;
-                        }
-                        
-                        .simpleButton:hover {
-                            background-color: var(--vgo-color--main) !important;
-                            color: var(--color-white) !important;
-                        }
-                        
-                        .simpleButton:active {
-                            background-color: var(--vgo-color-light) !important;
-                            border: unset !important;
-                            color: var(--color-white) !important;
-                        }
-                        
-                        input {
-                            outline: O none !important;
-                            box-shadow: none !important;
-                        }
-                        
-                        input:active,
-                        input:focus {
-                            border-color: var(--vgo-color--main) !important;
-                        }
-                        
-                        .vgoExplorer {
-                            font-size: 1.6em;
-                            color: var(--vgo-color--main);
-                        }
-                        
-                        .allign-center {
-                            text-align: var(--text-center);
-                        }
-                        
-                        .allign-right {
-                            text-align: var(--text-right);
-                        }
-                        
-                        .allign-left {
-                            text-align: var(--text-left) !important;
-                        }
-                        
-                        .display-inline {
-                            display: inline-block !important;
-                        }
-                        
-                        .dispayFlex {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        
-                        .margin-5em {
-                            margin-top: 5em !important;
-                        }
-                        
-                        .border-Box-Top {
-                            border-top: 1px solid black;
-                        }
-                        
-                        .validedBy {
-                            color: var(--color-gray);
-                            padding: unset;
-                            text-decoration: unset !important;
-                            transition: all 250ms;
-                        }
-                        
-                        .validedBy:hover {
-                            color: var(--vgo-color--main);
-                        }
-                        
-                        .allign-block {
-                            vertical-align: super;
-                        }
-                        
-                        .allignAmmountTransac {
-                            vertical-align: text-bottom;
-                        }
-                        
-                        .vgoTransactionAmmount {
-                            background-color: var(--vgo-color--main);
-                            color: var(--color-white);
-                            border-radius: 15px;
-                        }
-                        
-                        .separationHR {
-                            margin-top: 0.75rem;
-                            margin-bottom: 0.75rem;
-                            opacity: .75;
-                            border: 0;
-                            border-top: 1px solid #e7eaf3;
-                        }
-                        
-                        .btn-outline-primary {
-                            background-color: var(--vgo-color-light);
-                            box-shadow: unset !important;
-                            outline: 0 !important;
-                            color: white;
-                            border: unset !important;
-                        }
-                        
-                        .btn-outline-primary:hover {
-                            background-color: var(--vgo-color-light);
-                            color: white;
-                        }
-                        
-                        .padding-card-elems {
-                            padding: 4%;
-                        }
-                        
-                        .setVgoColorPurple {
-                            color: var(--vgo-color-light) !important;
-                        }
+                           :root {
+                              --vgo-color--main: #7700cf !important;
+                              --vgo-color-light: #cd33b4 !important;
+                              --not-black-but-black: #200038 !important;
+                              --gray-color: #9399a0 !important;
+                              --Bg-color-main: #2b2b37 !important;
+                              --radiant-background: linear-gradient(to right, #7700cf 0%, #cd33b4 100%);
+                              --font-nav: 1.2em !important;
+                              --font-familly: 'Oswald', sans-serif;
+                              --color-white: white;
+                              --color-nuanced-white: #ebf1f5;
+                              --color-gray: grey;
+                              --margin-unset: unset;
+                              --margin-auto: 0 auto;
+                              --text-center: center;
+                              --text-right: right;
+                              --text-left: left;
+                          }
+                          
+                          body {
+                              /* background-color: var(--Bg-color-main) !important; */
+                          }
+                          
+                          * {
+                              font-family: var(--font-familly);
+                          }
+                          
+                          .navbar {
+                              background-image: var(--radiant-background);
+                          }
+                          
+                          .navNavigator {
+                              color: var(--color-white);
+                              display: block;
+                              padding: .5rem 1rem;
+                              text-decoration: unset !important;
+                              transition: all 250ms;
+                              font-size: var(--font-nav);
+                          }
+                          
+                          .navNavigator:hover {
+                              color: var(--vgo-color-light);
+                          }
+                          
+                          hr {
+                              opacity: .75;
+                          }
+                          
+                          .navbar-toggler-icon {
+                              background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+                          }
+                          
+                          .navbar-toggler {
+                              color: rgba(255, 255, 255, .5);
+                              border-color: rgba(255, 255, 255, .1);
+                          }
+                          
+                          #VirgoImgNav {
+                              margin-top: 10px;
+                          }
+                          
+                          .row-search {
+                              margin: 3em auto;
+                              text-align: var(--text-center);
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                          }
+                          
+                          .row {
+                              margin: var(--margin-unset);
+                          }
+                          
+                          .margin-auto {
+                              margin: var(--margin-auto);
+                          }
+                          
+                          .dropdown-filter {
+                              background-color: var(--vgo-color-light);
+                              color: white;
+                              transition: all 250ms;
+                          }
+                          
+                          .dropdown-filter:hover,
+                          .dropdown-filter:active,
+                          .dropdown-filter:focus {
+                              outline: 0 none;
+                              color: white;
+                              box-shadow: none !important;
+                          }
+                          
+                          .searchBtn {
+                              background-color: var(--vgo-color-light);
+                              color: var(--color-white);
+                              transition: all 250ms;
+                          }
+                          
+                          .searchBtn:hover,
+                          .searchBtn:active,
+                          .searchBtn:focus {
+                              outline: 0 none;
+                              color: var(--color-white);
+                              box-shadow: none !important;
+                          }
+                          
+                          .simpleButton {
+                              background-color: transparent !important;
+                              color: var(--vgo-color--main) !important;
+                              box-shadow: none !important;
+                              outline: 0 none;
+                              border: 1px solid var(--vgo-color--main) !important;
+                          }
+                          
+                          .simpleButton:hover {
+                              background-color: var(--vgo-color--main) !important;
+                              color: var(--color-white) !important;
+                          }
+                          
+                          .simpleButton:active {
+                              background-color: var(--vgo-color-light) !important;
+                              border: unset !important;
+                              color: var(--color-white) !important;
+                          }
+                          
+                          input {
+                              outline: O none !important;
+                              box-shadow: none !important;
+                          }
+                          
+                          input:active,
+                          input:focus {
+                              border-color: var(--vgo-color--main) !important;
+                          }
+                          
+                          .vgoExplorer {
+                              font-size: 1.6em;
+                              color: var(--vgo-color--main);
+                          }
+                          
+                          .allign-center {
+                              text-align: var(--text-center);
+                          }
+                          
+                          .allign-right {
+                              text-align: var(--text-right);
+                          }
+                          
+                          .allign-left {
+                              text-align: var(--text-left) !important;
+                          }
+                          
+                          .display-inline {
+                              display: inline-block !important;
+                          }
+                          
+                          .dispayFlex {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                          }
+                          
+                          .margin-5em {
+                              margin-top: 5em !important;
+                          }
+                          
+                          .border-Box-Top {
+                              border-top: 1px solid black;
+                          }
+                          
+                          .validedBy {
+                              color: var(--color-gray);
+                              padding: unset;
+                              text-decoration: unset !important;
+                              transition: all 250ms;
+                          }
+                          
+                          .validedBy:hover {
+                              color: var(--vgo-color--main);
+                          }
+                          
+                          .allign-block {
+                              vertical-align: super;
+                          }
+                          
+                          .allignAmmountTransac {
+                              vertical-align: text-bottom;
+                          }
+                          
+                          .vgoTransactionAmmount {
+                              background-color: var(--vgo-color--main);
+                              color: var(--color-white);
+                              border-radius: 15px;
+                          }
+                          
+                          .separationHR {
+                              margin-top: 0.75rem;
+                              margin-bottom: 0.75rem;
+                              opacity: .75;
+                              border: 0;
+                              border-top: 1px solid #e7eaf3;
+                          }
+                          
+                          .btn-outline-primary {
+                              background-color: var(--vgo-color-light);
+                              box-shadow: unset !important;
+                              outline: 0 !important;
+                              color: white;
+                              border: unset !important;
+                          }
+                          
+                          .btn-outline-primary:hover {
+                              background-color: var(--vgo-color-light);
+                              color: white;
+                          }
+                          
+                          .padding-card-elems {
+                              padding: 4%;
+                          }
+                          
+                          .border-radius-25px {
+                              border-radius: 25px;
+                          }
+                          
+                          .setVgoColorPurple {
+                              color: var(--vgo-color-light) !important;
+                          }
