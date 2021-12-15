@@ -6,14 +6,6 @@
     text-align: center;
 }
 
-.separationHR {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    opacity: .75;
-    border: 0;
-    border-top: 1px solid #e7eaf3;
-}
-
 #col-infos {
     padding: 1%;
 }
@@ -46,24 +38,28 @@ a {
 
 #succesTransac {
     color: #00c9a7;
-    background-color: rgba(0,201,167,.1);
+    background-color: rgba(0, 201, 167, .1);
     padding: 0.5em;
 }
 
 #failedTransac {
     color: #c90000;
     background-color: rgba(201, 0, 0, 0.1);
-    padding: 0.5em;   
+    padding: 0.5em;
 }
 
 .blockPassed {
     color: #00c9a7;
-    background-color: rgba(0,201,167,.1);
+    background-color: rgba(0, 201, 167, .1);
     padding: 0.5em;
     margin-left: 1em
 }
 
 .value {
-    background-color: rgba(119,131,143,.1);
+    background-color: rgba(119, 131, 143, .1);
     padding: 0.3rem 0.5rem;
+}
+
+.card {
+    padding: 1%;
 }

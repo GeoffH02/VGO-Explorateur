@@ -175,6 +175,10 @@ input:focus {
     transition: all 250ms;
 }
 
+.text-decoration {
+    text-decoration: unset !important;
+}
+
 .validedBy:hover {
     color: var(--vgo-color--main);
 }

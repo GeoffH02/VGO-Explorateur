@@ -44,21 +44,48 @@
     </nav>
 
     <main>
+        <div class="row row-search mt-4">
+            <div class="col-lg-9">
+                <span class="setVgoColorPurple d-flex justify-content-center mb-2 fs-2">Virgo Explorer</span>
+                <div class="col-lg-6 margin-auto">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn dropdown-toggle dropdown-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Filters</button>
+                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Beacons\Ect\Ect" placeholder="Beacons\Ect\Ect">
+                        <div class="input-group-append">
+                            <button class="btn searchBtn" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row mt-4">
             <div class="col-lg-9 margin-auto">
-                <h3>
+                <h3 class="setVgoColorPurple">
                     Transaction Details
                 </h3>
                 <!--<button type="submit" onclick="hide()"class="btn btn-outline-primary floatleft"><i class="fas fa-angle-double-left"></i> Next</button>
                     <button type="submit" onclick="hide()"class="btn btn-outline-primary floatright">Last <i class="fas fa-angle-double-right"></i></button>
                     -->
-                <div class="card">
-                    <div class="row mt-1">
+                <hr class="separationHR mt-4">
+                <div class="card mt-4">
+                    <span class="setVgoColorPurple">Transactions</span>
+                    <hr class="hrBordrered">
+                    <div class="row mt-1 mt-3">
                         <div class="col-md-3 display-inline">
                             <span>Transaction Hash:</span>
                         </div>
                         <div class="col-md-9 display-inline">
-                            <span>0x6d8b2b0befbdf860aa5080d37638f8c0763974761f4a8506252d0c9376827696</span>
+                            <span class="setVgoColorPurple">0x6d8b2b0befbdf860aa5080d37638f8c0763974761f4a8506252d0c9376827696</span>
                         </div>
                         <hr class="separationHR">
                     </div>
@@ -77,7 +104,7 @@
                             <span>Validator:</span>
                         </div>
                         <div class="col-md-9 display-inline">
-                            <a href="#">13456333</a>
+                            <a href="#" class="setVgoColorPurple">13456333</a>
                             <span class="blockPassed"> 34 Block Confirmations</span>
                         </div>
                         <hr class="separationHR">
@@ -96,7 +123,7 @@
                             <span>From:</span>
                         </div>
                         <div class="col-md-9 display-inline">
-                            <a href="#">0x6d8b2b0befbdf860aa5080d37638f8c0763974761f4a8506252d0c9376827696</a>
+                            <a href="#" class="setVgoColorPurple">0x6d8b2b0befbdf860aa5080d37638f8c0763974761f4a8506252d0c9376827696</a>
                         </div>
                         <hr class="separationHR">
                     </div>
@@ -105,7 +132,7 @@
                             <span>To:</span>
                         </div>
                         <div class="col-md-9 display-inline">
-                            <a href="#">0x6d8b2b0befbdf860aa5080d37638f8c0763974761f4a8506252d0c9376827696</a>
+                            <a href="#" class="setVgoColorPurple">0x6d8b2b0befbdf860aa5080d37638f8c0763974761f4a8506252d0c9376827696</a>
                         </div>
                         <hr class="separationHR">
                     </div>
@@ -133,7 +160,7 @@
                             <span>Height:</span>
                         </div>
                         <div class="col-md-9 display-inline">
-                            <a href="#">13456333</a>
+                            <a href="#" class="setVgoColorPurple">13456333</a>
                             <span class="blockPassed"> 34 Block Confirmations</span>
                         </div>
                         <hr class="separationHR">
@@ -143,9 +170,9 @@
                             <span>Parents:</span>
                         </div>
                         <div class="col-md-9 display-inline">
-                            <a href="#">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
+                            <a href="#" class="setVgoColorPurple">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
                             <br>
-                            <a class="mt-2" href="#">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
+                            <a class="mt-2 setVgoColorPurple" href="#">0xbc2bdf64cd2467b48d6ae882bc08772e084364cedf8cfad72ff390310202b243</a>
                         </div>
                     </div>
                     <!-- <div class="card-body">
