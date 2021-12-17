@@ -168,6 +168,10 @@ input:focus {
     border-top: 1px solid black;
 }
 
+.colorWhite {
+    color: var(--color-white);
+}
+
 .validedBy {
     color: var(--color-gray);
     padding: unset;
@@ -222,12 +226,26 @@ input:focus {
     padding: 4%;
 }
 
+.padd-2 {
+    padding: 2%;
+}
+
 .border-radius-10px {
     border-radius: 10px;
 }
 
 .setVgoColorPurple {
     color: var(--vgo-color-light) !important;
+}
+
+.bgWhite {
+    background-color: white !important;
+    border-radius: 15px;
+}
+
+.backgroundLight {
+    background-color: var(--vgo-color-light);
+    border-radius: 5px;
 }
 
 .hrBordrered {
@@ -239,4 +257,14 @@ input:focus {
 
 .backgroundTable {
     background-color: var(--backgground-stripped);
+}
+
+.dataRow p {
+    margin-bottom: unset;
+}
+
+.btn-color {
+    color: #77838f;
+    background: rgba(119, 131, 143, .1);
+    border-color: transparent;
 }

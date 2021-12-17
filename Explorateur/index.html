@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<body style="background-color: white !important;">
+<body>
 
     <nav class="navbar navbar-expand-lg" aria-label="Eighth navbar example">
         <div class="container">
@@ -23,7 +23,7 @@
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
             <p class="navbar-toggler-icon"></p>
-          </button>
+        </button>
 
             <div class="collapse navbar-collapse" id="navbarsExample07">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -47,7 +47,8 @@
             <div class="col-lg-6 margin-auto">
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <button class="btn dropdown-toggle dropdown-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Filters</button>
+                        <button class="btn dropdown-toggle dropdown-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Filters
+                    </button>
                         <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
@@ -65,7 +66,7 @@
         </div>
     </div>
     <div class="row margin-5em d-flex justify-content-center align-items-center">
-        <div class="col-lg-12 allign-center rounded-pill ">
+        <div class="col-lg-12 allign-center rounded-pill colorWhite">
             <div class="col-lg-2 display-inline ">
                 <p class="text-center fs-5 ">Difficulty</p>
                 <p class="text-center setVgoColorPurple fs-5">XXXXXXXXX</p>
@@ -85,49 +86,84 @@
         </div>
     </div>
 
-    <!--
-    <div class="container mt-4">
-        <div class="col-lg-5">
-            <span>Beacons</span>
-            <div class="col-lg-5">
-                <span>Sah</span>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-5 bgWhite mt-5">
+                <div class="col-12 padd-2">
+                    <p>Latest Beacon</p>
+                    <hr class="separationHR">
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <div class="col-1 d-inline-block">
+                            <span class="btn btn-color">BK</span>
+                        </div>
+                        <div class="col d-inline-block">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a href="#" class="text-decoration-none setVgoColorPurple">1333334</a>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p>23 secs ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-inline-block">
+                            <div class="row">
+                                <div class="col-lg-12">Validated By : <a href="#" class="text-decoration-none setVgoColorPurple"> Virgo</a></div>
+                                <div class="col-12">
+                                    <p><a href="#" class="text-decoration-none setVgoColorPurple">547 TxN</a> in 3 secs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-inline-block">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <p class="backgroundLight ms-4 colorWhite">500 VGO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="separationHR">
+                </div>
+                <button type="button" class="btn searchBtn mb-2 w-100">View All Beacons</button>
             </div>
-            <div class="col-lg-5">
-                <span>Teste</span>
+            <div class="col-lg-5 bgWhite mt-5 offset-md-1">
+                <div class="col-12 padd-2">
+                    <p>Latest Beacon</p>
+                    <hr class="separationHR">
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <div class="col-1 d-inline-block">
+                            <span class="btn btn-color">BK</span>
+                        </div>
+                        <div class="col d-inline-block">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a href="#" class="text-decoration-none setVgoColorPurple">1333334</a>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p>23 secs ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-inline-block">
+                            <div class="row">
+                                <div class="col-lg-12">Validated By : <a href="#" class="text-decoration-none setVgoColorPurple"> Virgo</a></div>
+                                <div class="col-12">
+                                    <p><a href="#" class="text-decoration-none setVgoColorPurple">547 TxN</a> in 3 secs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-inline-block">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <p class="backgroundLight ms-4 colorWhite">500 VGO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="separationHR">
+                </div>
+                <button type="button" class="btn searchBtn mb-2 w-100">View All Transactions</button>
             </div>
-        </div>
-    </div>
-
-    <div class="container mt-4">
-        <div class="col-lg-5">
-            <span>Beacons</span>
-            <div class="col-lg-5">
-                <span>Sah</span>
-            </div>
-            <div class="col-lg-5">
-                <span>Teste</span>
-            </div>
-        </div>
-    </div>
--->
-
-    <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-lg-5" style="background-color: rebeccapurple;">
-            <div class="col-lg-3 d-inline-block">
-                <a href="#" class="text-decoration">Teste</a>
-                <small class="d-block">13 secs ago</small>
-            </div>
-            <div class="col-lg-4 d-inline-block">
-                <span class="d-block">Validated by <a href="#" class="text-decoration">Validate : DECK</a></span>
-                <a href="" class="text-decoration">350 txn</a><small> in secs</small>
-            </div>
-            <div class="col-lg-2 d-inline-block">
-                <span>Teste</span>
-            </div>
-        </div>
-        <div class="col-lg-5">
-            <div class="col-lg-2 d-inline-block"><span>Teste</span></div>
-            <div class="col-lg-5 d-inline-block"><span>Teste</span></div>
         </div>
     </div>
 </body>
