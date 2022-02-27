@@ -1,3 +1,3 @@
 # VGO-Explorateur
 
-Touche pas a sa ptit con 
+Explorateur de blocks vgo
